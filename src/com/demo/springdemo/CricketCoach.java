@@ -4,17 +4,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PingPongCoach implements Coach{
+public class CricketCoach implements Coach{
 
     private FortuneService fortuneService;
 
-    PingPongCoach(){
-        System.out.println("PingPong Coach: inside default constructor");
+    CricketCoach(){
+        System.out.println("CricketCoach: Inside defaut constructor");
     }
 
     @Override
     public String getDailyWorkout() {
-        return "Practice smash shots";
+        return "Do net practice";
     }
 
     @Override
@@ -22,10 +22,10 @@ public class PingPongCoach implements Coach{
         return fortuneService.getFortune();
     }
 
-    // define setter method for setter injection
+    // define a method for method injection
     @Autowired
-    public void setFortuneService(FortuneService fortuneService){
-        System.out.println("PingPong Coach: inside setFortuneService");
+    public void doSomeCrazyStuff(FortuneService fortuneService){
+        System.out.println("CricketCoach Coach: inside doSomeCrazyStuff");
         this.fortuneService = fortuneService;
     }
 }

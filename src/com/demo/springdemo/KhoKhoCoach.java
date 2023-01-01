@@ -4,19 +4,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TennisCoach implements Coach{
+public class KhoKhoCoach implements Coach{
 
+    //field injection
+    @Autowired
     private FortuneService fortuneService;
 
-    //implementing constructor injection
-    @Autowired
-    TennisCoach(FortuneService fortuneService){
-        this.fortuneService = fortuneService;
+    KhoKhoCoach(){
+        System.out.println("KhoKhoCoach: Inside defaut constructor");
     }
 
     @Override
     public String getDailyWorkout() {
-        return "Practice your backend volley";
+        return "Run 30 minutes";
     }
 
     @Override

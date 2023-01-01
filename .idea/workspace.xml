@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ead63a-15bb-48e2-91e3-829152e7c469" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/springdemo/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/springdemo/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/springdemo/HappyFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/AnnotationDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/PingPongCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/PingPongCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +65,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672453888132</updated>
-      <workItem from="1672453892136" duration="932000" />
+      <workItem from="1672453892136" duration="1036000" />
+      <workItem from="1672602389139" duration="2416000" />
     </task>
     <servers />
   </component>
