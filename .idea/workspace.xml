@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ead63a-15bb-48e2-91e3-829152e7c469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/AnnotationDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/CricketCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/KhoKhoCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/KhoKhoCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/PingPongCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/PingPongCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/demo/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/springdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -48,13 +43,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AnnotationDemoApp">
     <configuration name="AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.springdemo.AnnotationDemoApp" />
+      <module name="spring-demo-annotations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationsBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.springdemo.AnnotationsBeanScopeDemoApp" />
       <module name="spring-demo-annotations" />
       <extension name="coverage">
         <pattern>
@@ -80,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AnnotationDemoApp" />
+        <item itemvalue="Application.AnnotationsBeanScopeDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +103,7 @@
       <updated>1672453888132</updated>
       <workItem from="1672453892136" duration="1036000" />
       <workItem from="1672602389139" duration="2660000" />
-      <workItem from="1672632916764" duration="2110000" />
+      <workItem from="1672632916764" duration="3416000" />
     </task>
     <servers />
   </component>
