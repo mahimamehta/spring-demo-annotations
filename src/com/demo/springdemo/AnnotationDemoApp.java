@@ -11,8 +11,10 @@ public class AnnotationDemoApp {
         // retrieve bean
         Coach tennisCoach = context.getBean("tennisCoach", Coach.class);
         Coach pingPongCoach = context.getBean("pingPongCoach", Coach.class);
-        Coach cricketCoach = context.getBean("cricketCoach", Coach.class);
         Coach khoKhoCoach = context.getBean("khoKhoCoach", Coach.class);
+
+        // added extra methods in CricketCoach hence using CricketCoach.class as the type instead of Coach.class
+        CricketCoach cricketCoach = context.getBean("cricketCoach", CricketCoach.class);
 
         // use the bean
         System.out.println("Tennis Coach says : " + tennisCoach.getDailyWorkout());
@@ -25,6 +27,10 @@ public class AnnotationDemoApp {
         System.out.println("Ping Pong Coach says : " + pingPongCoach.getDailyFortune());
         System.out.println("Cricket Coach says: " + cricketCoach.getDailyFortune());
         System.out.println("KhoKho Coach says: " + khoKhoCoach.getDailyFortune());
+
+        // printing the properties injected through properties file
+        System.out.println(cricketCoach.getEmail());
+        System.out.println(cricketCoach.getTeam());
         //close the context
         context.close();
     }
